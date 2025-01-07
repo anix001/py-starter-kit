@@ -1,3 +1,5 @@
+# Variable - A container for a value(string, integer, float, boolean);
+
 first_name="Anish"
 
 print(first_name)
@@ -5,7 +7,7 @@ print(first_name)
 # f-string example (like template string in js)
 print(f"Hey {first_name}")
 
-is_student  = True;
+is_student  = True
 
 if is_student:
     print("Yes, I am a student")
