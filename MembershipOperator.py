@@ -13,3 +13,11 @@ if letter not in word:
 
 if letter in word:
     print(f"{letter} is in word")
+
+
+email = "ani@gmail.com"
+
+if '@' in email and '.' in email:
+    print("valid email")
+else:
+    print("Invalid email")
